@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="card"></p>
+    <p id="full"></p>
+    <p id="demo"></p>
+    <p id="car"></p>
+    <script>
+        {
+        const person={firstName:"kavi",lastName:"M",Age:23,eyecolor:"black"};
+        document.getElementById("card").innerHTML=person.firstName + "is"+ person.Age+"years old"; 
+        }
+        const person = {
+            firstName: "kavi",
+            lastName: "M",
+            id:911522622018
+        };
+            person.name= function(){
+                return (this.firstName +" "+ this.lastName).toUpperCase();
+            }
+             
+             document.getElementById("full").innerHTML= person.name();
+             
+             {
+                const person = {};
+                person.firstName = "kavi";
+                person.lastName = "M";
+                person.Age = 50;
+                person.id = 911522622018;
+                const x=person;
+                x.Age=23;
+                
+                document.getElementById("demo").innerHTML="my name is"+ " "+person.firstName+person.Age+" "+"years old";
+             }
+             {
+                const cars ={
+                    name:"BMW",
+                    color:"white",
+                    mycolor:{
+                            color1:"purple",
+                            color2:"yellow",
+                            color3:"red"
+                    }
+                };
+                cars.rate=8000000;
+                // delete cars.color;
+                let c1 ="mycolor";
+                let c2 ="color1";
+
+                document.getElementById("car").innerHTML= cars.name+"car color is"+cars[c1][c2]+" "+"rate"+" "+cars.rate;
+             }
+
+             
+
+    </script>
+    
+</body>
+</html>

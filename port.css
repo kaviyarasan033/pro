@@ -1,0 +1,81 @@
+#about {
+    background-color: #edcece; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 40%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+#portfolio {
+    background-color: #ebcc78; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+}
+
+#contact {
+    background-color: #ffbc4b; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #ef6b6b; 
+     text-align: center;
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Additional Styles */
+h2 {
+    color: #d97171;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #b976cc;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #e9b7b7;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+  .profile-photo {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}

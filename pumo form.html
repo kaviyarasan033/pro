@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="icon" href="./pumo_logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family">
+    <link rel="stylesheet" href="./app.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<style>
+  .fab{
+    color: rgb(125, 246, 125);
+    height:10px;
+    width: 20px;
+  }
+  </style>  
+</head>
+
+<body class="cursor">
+   
+  <div style="text-align: center;">
+    <img src="./pumo_logo.png" alt="logo">
+  </div>
+    <div id="outside">
+        <form id="survey-form">
+          
+          <h1 class="text">PUMO TECHNOVATION</h1>
+          <p id="description"><em><b>A great future in theoretical academy. I am hoping, and expecting, great things will happen here.
+          </b></em></p>
+          <p>Our Website : <a href="https://www.pumotechnovation.com/">https://www.pumotechnovation.com/</a></p>
+          <p><a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+          </form>
+          </div>
+          <!-- <fieldset id="set1"> -->
+            <div id="part1" class="hov">
+          <legend><h2>Personal Details</h2></legend>
+          <div>
+            <label id="name-label" for="name">Name: </label>
+            <input type="text" required id="name" name="user_name" placeholder="Enter name here" class="input-box"></div><br><br>
+          <div>
+            <label id="address-label" for="address">Address:</label>
+            <input type="Address" id="address" name="Address" placeholder="Enter address here"class="input-box"></div><br><br>
+            <div>
+                <label id="email-label" for="Email">Email:</label>
+                <input type="email" required id="email" name="user_email" placeholder="Enter email here"class="input-box">   </div>
+              <div><br><br>
+                <label id="number-label" for="phone">Phone Number:</label>
+                <input type="pin" class="pin" id="phone-number" name="number" placeholder="Enter 10 digit number"class="input-box">  </div><br>
+                <div>
+
+ <label for="name" class="gender">Gender :</label>               
+<input type="radio"  class="radio" id="boy" name="gender" value="male">
+<label for="boy" id="rd"><b>Male</b></label>
+<input type="radio" class="radio" id="girl" name="gender" value="female">
+<label for="girl" id="rd"><b>Female</b></label>
+<input type="radio" class="radio" id="other" name="gender" value="other">
+<label for="other" id="rd"><b>Others</b></label><br><br>
+
+                    
+                  </div>
+                  <label for="course" id="course">Intresting Course:</label>
+                  <form>
+                    <input list="browsers" id="browse" name="browser">
+                    <datalist id="browsers">
+                      <option value="Embedded System">
+                      <option value="Full stack developing">
+                      <option value="Robatics Engineering">
+                      <option value="Mechanical courses">
+                      <option value="Electrical and electronics">
+                      <option value="Aeronautical courses">
+                      <option value="MEP and SAP courses"> 
+                      <option value="Civil and architecture course"> 
+                    </datalist>
+                  </form><br><br>
+                  <label for="date-label" id="date">Date of Joining:</label>
+                  <input type="date" class="dates" name="join">
+          <!-- </fieldset> --></div>
+           <div id="part2" class="hov"  style="background-color: rgb(225, 225, 190);">
+                  <!-- <fieldset id="set2"> -->
+                    <legend><h2>Qualification  Details</h2></legend>
+                    <div>
+                      <label for="msg"></label>
+                      <p>your qualification</p>
+                      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+                    <div>
+                      <label for="msg">Who refers you and phone number</label><br>
+                      <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+
+                  <div id="submitbutton">
+                    <button type="submit" id="submit">Send your application</button>   </div>
+                
+                </form>
+                  </div>
+                  <div></div>
+                
+                
+                <!-- </fieldset> -->
+           
+           
+         
+              
+   
+   
+</body>
+</html>
